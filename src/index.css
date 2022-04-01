@@ -1,13 +1,521 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    scroll-behavior: smooth;
+}
+.darkmode{
+    filter: invert(100) hue-rotate(180deg);
+}
+.invert{
+    filter: invert(100) hue-rotate(180deg);
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size:1.2rem;
+    position: relative;
+    cursor: pointer;
+}
+.navbar-expand-lg .navbar-nav .nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:0%;
+    height:2px;
+    background:#9076CD;
+    transition:all 0.5s ease;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::before{
+   
+    width:100%;
+   
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color:#9076CD;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.profile-image{
+    width: 525px;
+    height: 525px;
+    object-fit: cover;
+    border: 0.4rem solid #9076CD;
+    border-radius: 5px;
+}
+.btn-custom{
+    font-family: 'Acme', sans-serif;
+    color: #fff;
+    background-color:#9076CD;
+    width: 200px;
+    height: 50px;
+    transition:all 0.5s ease;
+    box-shadow: 0 8px 8px -7px #9076CD;
+   
+ }
+ 
+ .btn-custom:hover,.btn-custom:focus{
+    color: #fff;
+    background-color:#68E4BC;
+    box-shadow: 0 8px 8px -7px #68E4BC;
+ 
+ }
+ .container .description .col-md-2 {
+    width: 12.66666667%;
+}
+
+.container .description .fas{
+    font-size: 30px;
+   color:#32B768;
+   display: inline-block;
+}
+h1{
+  font-family: 'Acme', sans-serif;
+    color:#252c42;
+    font-size: 2.6rem;
+    position: relative;
+}
+.container > h2{
+    font-family: 'Acme', sans-serif;
+    color:#252c42;
+    font-size: 2.5rem;
+    position: relative;
+ }
+ .container > h2::before {
+  left: 0px;
+  right: 0px;
+  width: 80%;
+  bottom: -4px;
+  height: 5px;
+  content: "";
+  position: absolute;
+  max-width: 100px;
+  background-color: #32B768;
+}
+  h4{
+    font-size: 1.8rem;
+    color:#4c505d;
+    font-family: 'Acme', sans-serif;
+}
+ p{
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 2rem;
+    color:hsl(201, 11%, 66%);
+   font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.5rem;
+   
+}
+ .card-service{
+    width:100%;
+    height:360px;
+    background-color: #ffff;
+     border-radius:10px;
+     box-shadow:0px 12px 15px -12px #9DA2AD;
+     cursor: pointer;
+     position: relative;
+     text-align: start;
+     overflow: hidden;
+     margin: 15px auto;
+   padding: 1.5rem;
+   
+  
+   
+ }
+ .card-service:hover{
+    box-shadow:0px 0px 25px 5px rgba(0,0,0,0.1);
+    transition: all 0.5s ease!important;
+ }
+ 
+ .card-service main{
+     padding:1.2rem 0px;
+ }
+  
+.card-service h2{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    color:#4c505d;
+    font-family: 'Acme', sans-serif;
+}
+.card-service p{
+    font-size: 1rem;
+    letter-spacing: 0px;
+    line-height: 2rem;
+    color:hsl(201, 11%, 66%);
+   font-family: 'Poppins', sans-serif;
+   
+}
+ .icon{
+
+    width:90px;
+    height:90px;
+    font-size:2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #9076CD;
+
+
+ }
+ .card-service::before{
+     content:'';
+     position: absolute;
+     width:0%;
+     height:3px;
+   background-image:linear-gradient(45deg, #F9A08D 50%,  #9076CD 50%);
+     top: 0;
+     right:50%;
+     border-radius:20px;
+     transition:all 0.5s ease-in;
+
+ }
+ 
+ .card-service:hover::before{
+    left:0;
+     width:100%;
+    
+
+ }
+ .tech-card{
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 8%);
+    border-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+ }
+ .tech-card img{
+     width: 60%;
+     height: 100px;
+     object-fit: contain;
+ }
+ 
+ .gallery-card img{
+     width: 100%;
+ }
+    .card{
+        margin:15px auto;
+        box-shadow: 0 5px 35px 0 rgb(0 0 0 / 8%);
+    border-color: #fff;
+    padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+  
+    .card-body{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .card-title{
+        padding-bottom: 0.5rem;
+    }
+    .card h4{
+        display:none;
+        font-size: 1.3rem;
+        line-height:1rem;
+        color:#4c505d;
+        font-family: 'Acme', sans-serif;
+        
+    }
+    .card p{
+        font-size: 1rem;
+        letter-spacing: 0.1px;
+        line-height: 2rem;
+        color:hsl(201, 11%, 66%);
+       font-family: 'Poppins', sans-serif;
+        margin-bottom: 0.5rem;
+       
+    }
+    .card .btn-custom{
+        width:150px;
+        height: 40px;
+        margin:10px auto;
+    }
+
+ .overlay-3 h4 ,.overlay-4 h4{
+    display:flex;
+ }
+    #projects .card img, #newproject .card img{
+        position:relative;
+    }
+
+    .overlay-3{
+        background-color:#6fd8f566;
+        width:100%;
+        height: 135px;
+        position: absolute;
+        opacity: 0;
+        transition: all 1.5s ease;
+        z-index:999;
+        left:0;
+        top:0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    border-radius: 0px 10px 40px 0px;  
+
+    }
+    .card:hover .overlay-3{
+        opacity:1;
+        transition: all 1s ease-in;
+
+        }
+
+    #order button.calc{
+        width: 100px;
+    }   
+
+    .overlay-4{
+        background-color: #9fffc6;
+        width: 100%;
+        height:100%;
+        position: absolute;
+        opacity: 0;
+        transition: all 1.5s ease;
+        z-index:999;
+        left:0;
+        top:0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+   .card:hover .overlay-4{
+    opacity:1;
+    transition: all 1.5s ease-in-out;
+    
+    
+    }
+
+
+    .overlay-4 .fas,.overlay-3 .fas{
+        background-color: #77B0FB;
+        color: white;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #77B0FB;
+        box-shadow: 2px 2px 6px 1px #fafafa;
+        border-radius:0px 10px 20px 0px;
+        margin: 5px;
+        transition:all 0.5s ease-in;
+    }
+    .card .fas:hover{
+        background-color:#68E4BC;
+        border-color:#68E4BC ;
+        
+       
+    }
+.form{
+    box-shadow: 0 15px 50px rgb(0 0 0 / 10%);
+    padding: 2em;
+}
+
+.form-control{
+   font-family: 'Poppins', sans-serif;;
+    border-radius:5px;
+    padding: 0.5rem 0.75rem;
+}
+textarea{
+    resize: none;
+}
+a{
+    text-decoration: none;
+}
+.container .fab,.fa-envelope-open,.fa-phone-square{
+    color: #fff;
+    box-shadow: 0 8px 8px -7px #9076CD;
+    background-color: #9076CD;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition:all 0.2s step-end;
+    cursor: pointer;
+}
+.fab:hover,.fa-envelope-open:hover,.fa-phone-square:hover{
+    background-image:linear-gradient(220deg, #F9A08D 30%, #9076CD 70%) ;
+
+}
+.bg-custom{
+    background-color:#495466;
+}
+.bottom p{
+    color:#fff;
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+   font-family: 'Poppins', sans-serif;
+}
+.scroll-button{
+    position: fixed;
+    bottom: 78px;
+    right: 15px;
+    background-color: #9076CD;
+    border-radius: 30px 30px 0px 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition:all 1s ease-out;
+}
+.scroll-button:hover{
+    background-color: #68E4BC;
+    transform: scale(1.05);
+}
+.fa-angle-up {
+    color:#fff;
+    font-size:1.8rem;
+    
+}
+.darkmode-btn{
+    position: absolute;
+    background-color:transparent;
+    top:6rem;
+    right:10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+.darkmode-btn:hover{
+    background-color:#9076CD;
+   
+}
+.darkmode-btn:hover .fa-adjust{
+   color:#fff;
+}
+.fa-adjust{
+    color:#9076CD;
+    font-size:2rem;
+    
+}
+.cv-section{
+    position: fixed;
+    bottom:14px;
+    left:15px;
+}
+.cv-section img{
+    width:80px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  display: flex;
+    justify-content: center;
+    align-items: center
+}
+ .float .fa-whatsapp{
+    color: #fff;
+    background-image: none;
+    box-shadow:none;
+ }
+.float .fa-whatsapp:hover,.float:hover{
+    color: #fff;
+    background-image: none;
+    
+}
+.text-red-500{
+    color: #fe2323;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      font-size: 15px;
+  }
+@media(max-width:992px){
+    .navbar-light .navbar-toggler {
+        color:#9076CD;
+        border-color:#9076CD;
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.05rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+       text-align: center;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover::before {
+        width: 30%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        width: 0%;
+        height: 2px;
+        transition: all 0.5s ease;
+    }
+    .card .btn-custom {
+        margin: 5px auto;
+    }
+  
+}
+@media(min-width:768px){
+    .mobile-btn{
+        display: none;
+    }
+    
+}
+@media(max-width:576px){
+    .navbar-brand h1{
+        font-size: 1.5rem;
+    }
+    .profile-image {
+        width: 100%;
+        height: auto;
+    }
+    .container .description .col-3 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+    .card-body {
+        text-align: start;
+        padding: 1rem 0px;
+    }
+    .bottom p{
+        font-size: 15.5px;
+       
+    }
+  footer  .fab,   footer  .fas{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        font-size: 1.4rem;
+}
+.btn-custom{
+    margin: 0 auto;
+}
+.overlay-4{
+    display: none;
+}
 }
