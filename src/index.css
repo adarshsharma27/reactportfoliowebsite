@@ -307,7 +307,7 @@ a {
     transition: all 0.8s ease-in-out;
     cursor: pointer;
 }
-.fab:hover,
+.container .fab:hover,
 .fa-envelope-open:hover,
 .fa-phone-square:hover {
     background-color: #f9a08d;
