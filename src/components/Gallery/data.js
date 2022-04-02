@@ -1,5 +1,4 @@
 const data = [
-    
     {
         id: 0,
         image: "images/sm1.png",
@@ -114,44 +113,37 @@ const data = [
         id: 21,
         image: "images/profile2.png",
         alt: "github",
-    }
-    ,
+    },
     {
         id: 22,
         image: "images/profile3.png",
         alt: "github",
-    }
-    ,
+    },
     {
         id: 23,
         image: "images/profile4.png",
         alt: "github",
-    }
-    ,
+    },
     {
         id: 24,
         image: "images/profile5.png",
         alt: "github",
-    }
-    ,
+    },
     {
         id: 25,
         image: "images/profile6.png",
         alt: "github",
-    }
-    ,
+    },
     {
         id: 26,
         image: "images/profile7.png",
         alt: "github",
-    }
-    ,
+    },
     {
         id: 27,
         image: "images/profile8.png",
         alt: "github",
-    }
-   
+    },
 ];
 
 export default data;
