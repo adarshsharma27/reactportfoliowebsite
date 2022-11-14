@@ -57,6 +57,11 @@ const Navbar = () => {
                                         </span>
                                     </li>
                                 </NavLink>
+                                        <a href="https://medium.com/@frontendadarsh" target="_blank" className="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent">
+                                <li className="nav-item">
+                                            Blogs
+                                    </li>
+                                        </a>
                             </ul>
                         </div>
                     </div>

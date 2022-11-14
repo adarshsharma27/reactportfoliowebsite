@@ -49,11 +49,14 @@ html {
 .btn-custom {
     font-family: "Acme", sans-serif;
     color: #fff;
-    background-color: #9076cd;
+    /* background-color: #9076cd; */
+    background-color: #E8A864;
     width: 200px;
     height: 50px;
     transition: all 0.5s ease;
-    box-shadow: 0 8px 8px -7px #9076cd;
+    /* box-shadow: 0 8px 8px -7px #9076cd; */
+    box-shadow: 0 8px 8px -7px #E8A864;
+    border-radius: 10% 10% 10% 10% / 30% 30% 70% 70%;
 }
 
 .btn-custom:hover,
@@ -153,6 +156,7 @@ p {
     border-radius: 3px;
     color: #fff;
     background-color: #9076cd;
+    border-radius: 30% 50% 50% 30% / 30% 30% 50% 50%;
 }
 .card-service::before {
     content: "";
@@ -303,7 +307,7 @@ a {
     font-size: 1.8rem;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 30% 50% 50% 30% / 30% 30% 50% 50%;
     transition: all 0.8s ease-in-out;
     cursor: pointer;
 }
