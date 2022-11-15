@@ -1,5 +1,55 @@
 const data = [
     {
+        id: 14,
+        alt: "project",
+        image: "images/reactp14.png",
+        webUrl: "https://netflixdesi.netlify.app/",
+        gitUrl: "https://github.com/adarshsharma27/netflixdesi",
+    },
+    {
+        id: 12,
+        alt: "project",
+        image: "images/reactp12.png",
+        webUrl: "https://qrcodegenerater.netlify.app/",
+        gitUrl: "https://github.com/adarshsharma27/qrcodegenerator",
+    },
+    {
+        id: 13,
+        alt: "project",
+        image: "images/reactp13.png",
+        webUrl: "https://react-urlshortner.netlify.app/",
+        gitUrl: "https://github.com/adarshsharma27/urlshortner",
+    },
+    {
+        id: 18,
+        alt: "project",
+        image: "images/reactp18.png",
+        webUrl: "https://todo-list-appreact.netlify.app/",
+        gitUrl: "https://github.com/adarshsharma27/todoappredux",
+    },
+    {
+        id: 17,
+        alt: "project",
+        image: "images/reactp17.png",
+        webUrl: "https://github.com/adarshsharma27/ipaddresstracker",
+        gitUrl: "https://ipaddresstracker-react.netlify.app/",
+    },
+    {
+        id: 16,
+        alt: "project",
+        image: "images/reactp16.png",
+        webUrl: "https://react-hackernewsapp.netlify.app/",
+        gitUrl: "https://github.com/adarshsharma27/hackernewsapp",
+    },
+    {
+        id: 15,
+        alt: "project",
+        image: "images/reactp15.png",
+        webUrl: "https://netflixdesi.netlify.app/",
+        gitUrl: "https://github.com/adarshsharma27/devtoclone",
+    },
+    
+    {
         id: 0,
         alt: "project",
         image: "images/reactp1.png",
