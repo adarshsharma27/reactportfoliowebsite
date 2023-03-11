@@ -426,10 +426,6 @@ a {
     width: 10px;
     border-radius: 6px;
 }
-img[alt="portfolio-mockup3"],img[alt="portfolio-mockup4"],img[alt="portfolio-mockup5"]{
-    margin: 0 auto;
-    padding: 10px;
-}
 @media (max-width: 992px) {
     .navbar{
     padding-top: 0.5rem;
