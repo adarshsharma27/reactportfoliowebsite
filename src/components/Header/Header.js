@@ -27,10 +27,7 @@ const Header = () => {
                   {"{"}
                 </span>
                 <p className="py-2">
-                  Hello! My name is Adarsh Sharma and I'm a Passionate Front End
-                  Developer Like many other people, I enjoy spending my free
-                  time increasing my knowledge of Web Development and building
-                  new and challenging projects.
+                Hello! My name is Adarsh Sharma, and I'm a passionate front-end developer with two years of experience. I have experience with frontend technologies such as HTML5, CSS3, Boostrap5, Tailwind CSS, Javascript, ES6, Jquery, React Js, Redux, React Npm Packages, Redux Thunk, API Integration, Shopify, Google Analytics, AEM, and Responsive Web Design, and I also enjoy sharing my knowledge through technical blogs and social media platforms. I have over 100 posts on ( GitHub, LinkedIn, and Instagram, Dribble) My portfolio is also visited by over 1,000 users worldwide.
                 </p>
                 <div className="py-2 ">
                   <div className="row">
@@ -38,14 +35,6 @@ const Header = () => {
                       <a href="https://github.com/adarshsharma27/">
                         <i
                           className="fab fa-github-square fa-2x inverted"
-                          aria-hidden="true"
-                        ></i>
-                      </a>
-                    </div>
-                    <div className="col-md-2 col-3">
-                      <a href="https://www.instagram.com/frontendadarsh/?hl=en">
-                        <i
-                          className="fab fa-instagram fa-2x inverted"
                           aria-hidden="true"
                         ></i>
                       </a>
@@ -63,6 +52,14 @@ const Header = () => {
                         {" "}
                         <i
                           className="fab fa-dribbble-square fa-2x inverted"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </div>
+                    <div className="col-md-2 col-3">
+                      <a href="https://www.instagram.com/frontendadarsh/?hl=en">
+                        <i
+                          className="fab fa-instagram fa-2x inverted"
                           aria-hidden="true"
                         ></i>
                       </a>

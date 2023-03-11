@@ -3,25 +3,25 @@ const data = [
         id: 0,
         image: "images/design.svg",
         heading: "Design",
-        description: "End-to-end Web Ux/Ui design service to make your online product captivate to your audience",
+        description: "End-to-end Web Ux/UI design service to make your online product more appealing to your target audience.",
     },
     {
         id: 1,
         image: "images/development.svg",
         heading: "Development",
-        description: "End-to-end Web Development service to make your online presence stand-out from the crowd",
+        description: "Full-service web development to make your online presence stand out from the crowd.",
     },
     {
         id: 2,
         image: "images/launch.svg",
         heading: "Launch",
-        description: "End-to-end Websites,Landing pages service launch with Performance optimiztaion, hosting and domain",
+        description: "End-to-end website development, landing page service launch with performance optimization, hosting, and domain.",
     },
     {
         id: 3,
         image: "images/support.svg",
         heading: "Support",
-        description: "End-to-end Web Development support throughout the project  cycle completion  and launch ",
+        description: "End-to-end Web Development assistance during the project cycle's completion and launch.",
     },
 ];
 
