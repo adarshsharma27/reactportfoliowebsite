@@ -14,7 +14,7 @@ const Header = () => {
               data-aos-duration="1250"
             >
               <h4 className="font-weight-light">
-                <b>Frontendadarsh for you 👋</b>
+                <b>Frontendadarsh for you 👋 </b>
               </h4>
               <div className="description py-3">
                 <span
@@ -27,7 +27,7 @@ const Header = () => {
                   {"{"}
                 </span>
                 <p className="py-2">
-                Hello! My name is Adarsh Sharma, and I'm a passionate front-end developer with two years of experience. I have experience with frontend technologies such as HTML5, CSS3, Boostrap5, Tailwind CSS, Javascript, ES6, Jquery, React Js, Redux, React Npm Packages, Redux Thunk, API Integration, Shopify, Google Analytics, AEM, and Responsive Web Design, and I also enjoy sharing my knowledge through technical blogs and social media platforms. I have over 100 posts on ( GitHub, LinkedIn, and Instagram, Dribble) My portfolio is also visited by over 1,000 users worldwide.
+              <b>Namaste</b> !! My name is Adarsh Sharma and I'm a passionate front-end developer with two years of experience in frontend tools and technologies. I also enjoy sharing my knowledge on technical blogs and social media platforms. I have over 100 posts on GitHub, LinkedIn, and Dribble.
                 </p>
                 <div className="py-2 ">
                   <div className="row">
