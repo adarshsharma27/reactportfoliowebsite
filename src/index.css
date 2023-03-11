@@ -427,6 +427,10 @@ a {
     border-radius: 6px;
 }
 @media (max-width: 992px) {
+    .navbar{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
     .navbar-light .navbar-toggler {
         color: #9076cd;
         border-color: #9076cd;
