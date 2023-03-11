@@ -17,7 +17,7 @@ function ProfileImage() {
         <image
           x="-20"
           className="home__blob-img"
-          xlinkHref="images/pr(1).jpeg"
+          xlinkHref="images/profileImage.jpeg"
           style={{ width: 221, fill: "white" }}
         ></image>
       </g>
