@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <section>
         <div className="container h-100 w-100 py-4 mx-auto overflow-hidden">
-          <div className="row h-100 m-0 p-0 my-2 w-100  align-items-center">
+          <div className="row h-100 m-0 p-0 my-1 w-100  align-items-center">
             <div
               className="col-md-6 order-md-1 order-2 text-md-start  py-4 "
               data-aos="fade-right"
@@ -16,7 +16,7 @@ const Header = () => {
               <h4 className="font-weight-light">
                 <b>Frontendadarsh for you 👋 </b>
               </h4>
-              <div className="description py-3">
+              <div className="description pb-2">
                 <span
                   style={{
                     fontSize: "2.2rem",
@@ -76,11 +76,14 @@ const Header = () => {
                   {"}"}
                 </span>
               </div>
+              <div className="connect-with-me">
               <a href="#contactus">
                 <button className=" btn btn-custom inverted">
                   Connect With Me
                 </button>
               </a>
+              </div>
+              
             </div>
             <div
               className="col-md-6 order-md-2 order-1 text-center p-0"
