@@ -2,9 +2,9 @@
 ---
 Portfolio Website using Reactjs
 ---
-> ![Website](public/images/portfolio1.png)
-> ![Website](public/images/portfolio2.png)
-> ![Website](public/images/desktopmockup.png)
-> ![Website](public/images/mobileviewdemo.gif)
-<img src="public/images/mobilemockup.png" style="display:block;text-align:center"/>
+> ![portfolio-mockup1](public/images/portfolio1.png)
+> ![portfolio-mockup2](public/images/portfolio2.png)
+> ![portfolio-mockup3](public/images/mobilemockup.png)
+> ![portfolio-mockup4](public/images/desktopmockup.png)
+> ![portfolio-mocku5](public/images/mobileviewdemo.gif)
 > ### [LiveWebsite](https://frontendadarshsharma.netlify.app)
