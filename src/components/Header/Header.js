@@ -35,7 +35,7 @@ const Header = () => {
                       <a href="https://github.com/adarshsharma27/">
                         <i
                           className="fab fa-github-square fa-2x inverted"
-                          aria-hidden="true"
+                          aria-hidden="true" target="_blank" rel="noreferrer"
                         ></i>
                       </a>
                     </div>
@@ -43,7 +43,7 @@ const Header = () => {
                       <a href="https://www.linkedin.com/in/adarsh-sharma-b025b5178/">
                         <i
                           className="fab fa-linkedin fa-2x inverted"
-                          aria-hidden="true"
+                          aria-hidden="true"  target="_blank" rel="noreferrer"
                         ></i>
                       </a>
                     </div>
@@ -52,7 +52,7 @@ const Header = () => {
                         {" "}
                         <i
                           className="fab fa-dribbble-square fa-2x inverted"
-                          aria-hidden="true"
+                          aria-hidden="true"  target="_blank" rel="noreferrer"
                         ></i>
                       </a>
                     </div>
@@ -60,7 +60,7 @@ const Header = () => {
                       <a href="https://www.instagram.com/frontendadarsh/?hl=en">
                         <i
                           className="fab fa-instagram fa-2x inverted"
-                          aria-hidden="true"
+                          aria-hidden="true"  target="_blank" rel="noreferrer"
                         ></i>
                       </a>
                     </div>
