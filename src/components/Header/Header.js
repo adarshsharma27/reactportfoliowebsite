@@ -32,35 +32,35 @@ const Header = () => {
                 <div className="py-2 ">
                   <div className="row">
                     <div className="col-md-2 col-3">
-                      <a href="https://github.com/adarshsharma27/">
+                      <a href="https://github.com/adarshsharma27/"  target="_blank" rel="noreferrer">
                         <i
                           className="fab fa-github-square fa-2x inverted"
-                          aria-hidden="true" target="_blank" rel="noreferrer"
+                          aria-hidden="true"
                         ></i>
                       </a>
                     </div>
                     <div className="col-md-2 col-3">
-                      <a href="https://www.linkedin.com/in/adarsh-sharma-b025b5178/">
+                      <a href="https://www.linkedin.com/in/adarsh-sharma-b025b5178/"  target="_blank" rel="noreferrer">
                         <i
                           className="fab fa-linkedin fa-2x inverted"
-                          aria-hidden="true"  target="_blank" rel="noreferrer"
+                          aria-hidden="true"
                         ></i>
                       </a>
                     </div>
                     <div className="col-md-2 col-3">
-                      <a href="https://dribbble.com/Frontadarsh/shots">
+                      <a href="https://dribbble.com/Frontadarsh/shots"  target="_blank" rel="noreferrer">
                         {" "}
                         <i
                           className="fab fa-dribbble-square fa-2x inverted"
-                          aria-hidden="true"  target="_blank" rel="noreferrer"
+                          aria-hidden="true" 
                         ></i>
                       </a>
                     </div>
                     <div className="col-md-2 col-3">
-                      <a href="https://www.instagram.com/frontendadarsh/?hl=en">
+                      <a href="https://www.instagram.com/frontendadarsh/?hl=en"  target="_blank" rel="noreferrer">
                         <i
                           className="fab fa-instagram fa-2x inverted"
-                          aria-hidden="true"  target="_blank" rel="noreferrer"
+                          aria-hidden="true"
                         ></i>
                       </a>
                     </div>
