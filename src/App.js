@@ -10,6 +10,15 @@ import ScrollTop from "./components/SrollTop/ScrollTop";
 import Whatsapp from "./components/Whatsapp/Whatsapp";
 import { useEffect } from "react";
 import Resume from "./components/Resume/Resume";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-NCNCYMHQZG");
+// Send pageview with a custom path
+ReactGA.send({
+  hitType: "pageview",
+  page: `${window.location.href}`,
+  title: "Adarsh Sharma{Frontendadarsh}",
+});
 function App() {
     useEffect(() => {
         Aos.init();
