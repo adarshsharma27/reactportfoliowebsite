@@ -12,7 +12,7 @@ import { useEffect } from "react";
 import Resume from "./components/Resume/Resume";
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-NCNCYMHQZG");
+ReactGA.initialize("G-XFNV9FDXGC");
 // Send pageview with a custom path
 ReactGA.send({
   hitType: "pageview",
